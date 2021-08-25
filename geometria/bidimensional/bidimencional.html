@@ -2,14 +2,78 @@
 <html lang="es">
     <head>
       <title>
-  	 T&iacute;tulo de la P&acute;gina Web correspondiente
+  	 Geometria
       </title>
       <meta charset="utf-8">
-      <meta name="author"      content="nombre del autor de la pagina">
-      <meta name="keywords"    content="palabra1, palabra2, palabran">
-      <meta name="description" content="breve descripcion de contenido">
+      <meta name="author"      content="Roberto Alejandro Oliva Hernández">
+      <meta name="keywords"    content="Geometria, figuras, trigonometria, plano">
+      <meta name="description" content="Descripción breve de las figuras bidimensionales y su geometria">
+      <script src="../../js/scripts.js"></script>
     </head>
     <body>
         <!-- CONTENIDO DE LA PÁGINA -->
+        <a href="../../index.html" id="inicio">INICIO</a>
+        <a href="../../aritmetica/aritmetica.html">Aritemtica</a>
+        <a href="../../geometria/geometria.html">Geometria</a>
+
+        <h1 align="center">Geometria</h1>
+        <h2 align = "center">Bidimensional</h2>
+        <br>
+        <center><img src="../../imagenes/GeometriaBi.png" alt="Objetos geometricos bidimensional" width="400" height="215"></center>
+        <br>
+        <h2>
+          <b>Objetos Bidimensionales</b>
+        </h2>
+        <p>Los objetos bidimensionales son aquellos que existen en 2 dimensiones, representandose, pues, a lo largo y ancho de un plano (Cordenadas X e Y), asi mismo su nombre se da dependiendo de la cantidad de aristas (lados) que este posea, siendo el <b>circulo</b> quien posee el menor numero de lados (1).</p>
+        <br>
+        <h2>Geometria Bidimensional</h2>
+        <p>Siendo los objetos bidimensional objetos reales, estos ocupan un lugar en el espacio y, por ende, se pueden realizar calculos matemáticos con ellos, presentando las siguientes caracteristicas:</p>
+        <ol>
+          <li>Altura: Distancia en el eje Y desde la base del objeto (donde Y = 0) hasta el punto más alejado de la base en eje Y. Suele ser representado con la letra <b>'h'</b></li>
+          <center><img src="../../imagenes/alturaBid.png" alt="Altura de objeto bidimensional" width="200" height="200"></center>
+          <li>Anchura: Tambien llamada "Base" representa la distancia en el eje X desde el inicio del objeto (X = 0) hasta el punto más alejado del origen en el eje X. Suele ser representado con la letra <b>'b'</b></li>
+          <center><img src="../../imagenes/baseBid.png" alt="Anchura de objeto bidimensional" width="200" height="200"></center>
+          <li>Area: Es toda la zona que cubre el objeto bidimensional (cerrado), o sea, todo lo que se encuentre dentro de la union de sus aristas. Suele ser representado con la letra <b>'a'</b></li>
+          <center><img src="../../imagenes/areaBid.png" alt="Area de objeto bidimensional" width="200" height="200"></center>
+          <li>Perimetro: La distancia total recorrida por todos los lados que componen la figura. Suele representarse con la letra <b>'P'</b></li>
+          <center><img src="../../imagenes/perimetroBid.png" alt="Perimetro de objeto bidimensional" width="200" height="200"></center>
+          <li>Radio: Caracteristica exclusiva de el circulo, representa la distancia entre el centro del circulo hasta el limite de este. Suele representarse con la letra<b>'r'</b></li>
+          <center><img src="../../imagenes/radioBid.png" alt="Perimetro de objeto bidimensional" width="200" height="200"></center>
+        </ol>
+        <br>
+        <h3>Calculos para la obtensión de las caracteristicas de los objetos bidimensionales</h3>
+        <p>El calculo de estos elementos varía dependiendo de la figura geometrica, por lo que aqui presentaremos la de aquellas figuras más utiles y conocidas</p>
+        <table align="center">
+        <tr>
+          <td>Figura</td><td>Area</td><td>Perimetro</td>
+        </tr>
+        <tr>
+          <td>Circulo</td><td><b>(pi x r)²</b></td><td><b>2 x pi x r </b></td>
+        </tr>
+        <tr>
+          <td>Triangulo</td><td><b>(b x h)/2</b></td><td>Suma de sus tres lados.</td>
+        </tr>
+        <tr>
+          <td>Cuadrado</td><td><b>b x h</b></td><td>Suma de sus cuatro lados.</td>
+        </tr>
+      </table>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Mm_ueBLk2m8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <h2>Trigonometria</h2>
+        <p>Siendo el triangulo la figura de menor aristas capaz de adaptarse a las demás figuras, estas recibe ciertas caracteristicas especiales:</p>
+        <center><img src="../../imagenes/triangleBid.png" alt="Triangulo y sus elementos" width="200" height="200"></center>
+        <ol>
+          <li>Seno: Representa la elevación del angulo. Formula: Sen(@) = <b>Opuesto/Hipotenusa</b></li>
+          <li>Coseno: Representa la inclunación del angulo. Formula: Cen(@) = <b>Adyacente/Hipotenusa</b></li>
+          <li>Tangente: Representa la razón entre el cateto opuesto y el adyacente. Formula: Tan(@) = <b>Opuesto/Adyacente</b> o <b>Sen(@)/Cos(@)</b> </li>
+
+        </ol>
+        <h3>Teorema de Pitagoras</h3>
+        <p>La forma de encontrar el valor exacto de la hipotenusa es haciendo uso del Teorema de Pitagoras, el cual nos presenta la siguiente formula:</p>
+        <b>
+          <center><b>Hipotenusa = &radic;(Opuesto² + Adyacente²)</b></center>
+        </b>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ZyLz5SUMzNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        
+        <a href="#inicio"><img src="../../imagenes/subir.png" alt="Subir" class="btnSubir" id="btnSubir" width="50" height="50" align = "right"></a>
     </body>
 </html>
