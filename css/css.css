@@ -58,5 +58,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 500px;
+    height:315px;
 }
     
